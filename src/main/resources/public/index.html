@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>VK To Yandex Music Converter</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+          integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="text-center">
+    <h1>VK To Yandex Music Converter</h1>
+
+    <p>Vk information</p>
+    <p>
+        <a href="https://oauth.vk.com/authorize?client_id=5186897&scope=audio,offline&redirect_uri=https://oauth.vk.com/blank.html&response_type=token&v=5.40">
+            <button type="button" class="btn btn-success">Authorize in VK</button>
+        </a>
+
+        <a href="/getVkAudios">
+            <button type="button" class="btn btn-info">Show audios</button>
+        </a>
+    </p>
+
+    <p>Yandex.Disk information</p>
+    <p>
+        <a href="https://oauth.yandex.ru/authorize?response_type=token&client_id=b8e7e80e7ff84ada803982ce98f0ed40">
+            <button type="button" class="btn btn-success">Authorize in Yandex.Disk</button>
+        </a>
+        <a href="/getYandexDiskResources">
+            <button type="button" class="btn btn-info">Show resources</button>
+        </a>
+    </p>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+</body>
+</html>

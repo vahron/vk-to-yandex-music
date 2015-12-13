@@ -1,4 +1,4 @@
-package com.pashkan;
+package com.pashkan.vktoyandexmusic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
